@@ -1,0 +1,20 @@
+User-Agent: PostmanRuntime/7.30.0 //Describes the software being utilized by the user
+Accept: */* //which media types are an axxeptable response 
+Postman-Token: a7f37924-9113-4f7d-afe7-567feb66be98 API key value
+Host: www.googleapis.com //identifies the host
+Accept-Encoding: gzip, deflate, br //indicates the content encoding that the client can understand
+Connection: keep-alive // determines if the user wants the connection to stay alive while not using it or not
+Response Headers
+Content-Type: application/json; charset=UTF-8 // Indicate the media type of the resource
+Vary: Origin //describes the parts of the request message aside from the method and URL that influenced the content of the response it occurs in
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip //type of encoding
+Date: Mon, 30 Jan 2023 00:17:10 GMT //date
+Server: ESF //type of server
+Cache-Control: private //used to specify browser caching policies in both client requests and server responses
+X-XSS-Protection: 0 //designed to enable cross scripting
+X-Frame-Options: SAMEORIGIN // determines whether or not a browser is allowed to render a page
+X-Content-Type-Options: nosniff //security protection
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 //allows a server to indicate that another network location can be treated as authoritative for that origin when making future requests
+Transfer-Encoding: chunked //hopbyhop
