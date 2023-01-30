@@ -7,7 +7,16 @@ module.exports = async (phrase) => {
             q: `${phrase}`
         }
     })
+    let customObject = {
+            data: results.data, 
+            status: results.status, 
+            statusText: results.statusText, 
+            headers: results.headers,
+            requestHeader: results.config.headers
+        }
+    return JSON.stringify(customObject);
 
+    
 
     //
     //TODO: return a formattedObj
